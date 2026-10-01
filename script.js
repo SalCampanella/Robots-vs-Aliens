@@ -97,7 +97,7 @@ function drawMenuButton(btn, label) {
   ctx.font = "28px Orbitron";
   ctx.textAlign = "center";
   ctx.fillText(label, btn.x + btn.width / 2, btn.y + btn.height / 2 + 10);
-  ctx.textAlign = "left"; // reset — everything else in the file assumes left alignment
+  ctx.textAlign = "left";
 }
 
 function drawStartScreen() {
@@ -984,7 +984,6 @@ class Boss {
   rowHasTarget() {
     return defenders.some((d) => d.y === this.y);
   }
-
   // returns false if there are no defenders anywhere to go to
   pickNewRow() {
     const occupied = this.rowsWithDefenders();
@@ -1329,7 +1328,7 @@ canvas.addEventListener("click", function () {
     resetGame(3);
     return;
   }
-  if (collision(mouse, wave4) && unlocked[3]) {
+  if (collision(mouse, waveB) && unlocked[3]) {
     resetGame(4);
     return;
   }
