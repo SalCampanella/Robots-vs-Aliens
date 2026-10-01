@@ -32,3 +32,7 @@ A tower-defence game built with vanilla JavaScript and the HTML5 Canvas API. Pla
 - `style.css` — layout and background
 - `script.js` — all game logic
 - image assets — sprite sheets for defenders, aliens, projectiles, and the boss
+
+## Credits
+
+Art assets (defenders, aliens, projectiles, boss, and environment sprites) are licensed from [MobileGameGraphics.com](https://www.mobilegamegraphics.com). They are used here as part of this complete game, per the license terms, and are not available for standalone reuse or redistribution outside this project.
