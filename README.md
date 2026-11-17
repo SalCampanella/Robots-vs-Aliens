@@ -1,5 +1,7 @@
 # Robots vs. Aliens
 
+**[Play it here](https://salcampanella.github.io/Robots-vs-Aliens/)**
+
 A tower-defence game built with vanilla JavaScript and the HTML5 Canvas API. Place robot defenders to hold off waves of alien invaders, manage your scrap economy, and survive a final boss encounter.
 
 ## Gameplay
